@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <h2>池大大</h2>
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
