@@ -1,13 +1,241 @@
 <template>
-  <h2>分类</h2>
+  <div class="wrapper">
+    <ul calss="content">
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+      <li>测试</li>
+    </ul>
+  </div>
 </template>
 
 <script>
+import BScroll from 'better-scroll'
   export default {
-    name: "Category"
+    name: "Category",
+    data() {
+      return {
+        scroll: null,
+      }
+    },
+    created(){
+     
+    },
+    mounted(){
+      // console.log(BScroll)
+      // console.log(document.querySelector('.wrapper'))
+      this.scroll = new BScroll(document.querySelector('.wrapper'),{
+        probeType:3
+      })
+      this.scroll.on('scroll',(position) => {
+        console.log(position)
+      })
+      this.scroll.on('pullingUp',() => {
+        console.log('上拉加载更多')
+      })
+    }
   }
 </script>
 
 <style scoped>
-
+  .wrapper{
+    height:150px;
+    background:red;
+  }
 </style>

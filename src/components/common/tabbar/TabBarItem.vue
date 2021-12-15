@@ -43,7 +43,7 @@
 </script>
 
 <style scoped>
-  .tab-bar-item {
+ .tab-bar-item {
     flex: 1;
     text-align: center;
     height: 49px;
