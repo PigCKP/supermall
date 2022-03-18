@@ -46,13 +46,20 @@
             //    console.log('上啦记载')
                this.$emit('pullingUp')
            })
+
+            // console.log(this.scroll)
+            // console.log(this.scroll.scrollerHeight)
+            // this.scroll.refresh()
         },
         methods: {
             scrollTo(x,y,time=3000){
-                this.scroll.scrollTo(x,y,time)
+                this.scroll && this.scroll.scrollTo && this.scroll.scrollTo(x,y,time)
             },
             finishPullUp(){
                 this.scroll.finishPullUp()
+            },
+            refresh(){
+                this.scroll && this.scroll.refresh()
             }
         }
     }

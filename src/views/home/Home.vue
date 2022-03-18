@@ -63,12 +63,29 @@
       }
     },
     created() {
+
       this.getHomeMultidata();
+
+
       this.getHomeGoods('pop');
       this.getHomeGoods('new');
       this.getHomeGoods('sell');
+
+
+    
     
     },
+    mounted(){
+      const refresh = this.debounce(this.$refs.scroll.refresh)
+        //加载item图片加载完成
+      this.$bus.$on('itemImageLoad',() =>  {
+        refresh()
+      })
+
+      //对于refresh非常频繁的问题，进行防抖函数debounce
+
+    },
+
     computed:{
       showGods(){
         return this.goods[this.currentType].list
@@ -87,6 +104,16 @@
             this.currentType = 'sell';
             break;
 
+        }
+      },
+
+      debounce(func,delay){
+        let timer = null
+        return function (...args){
+          if(timer) clearTimeout(timer)
+          timer = setTimeout(() => {
+            func.apply(this,args)
+          }, delay);
         }
       },
 
